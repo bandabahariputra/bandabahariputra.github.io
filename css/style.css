@@ -102,7 +102,7 @@ pre, code {
 /* mobile */
 @media(max-width: 500px) {
   .hero .hero-main {
-    height: 130px;
+    height: 150px;
   }
 
   .hero .grid {
