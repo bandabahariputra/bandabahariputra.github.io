@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;700&display=swap');
+
+:root {
+  --light-color: rgba(231, 231, 232, 1);
+  --dark-color: rgba(22, 22, 29, 1);
+}
+}
+
+/* base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  background: var(--dark-color);
+  color: var(--light-color);
+  line-height: 1;
+  font-size: 18px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--light-color);
+}
+
+h1, h2 {
+  font-weight: 300;
+  line-height: 1.2;
+  margin: 10px 0;
+}
+
+p {
+  font-weight: 300;
+  margin: 10px 0;
+}
+
+img {
+  width: 100%;
+}
+
+pre, code {
+  background: #333;
+  color: #fff;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+/* hero */
+.hero .hero-main {
+  height: 200px;
+  position: relative;
+}
+
+.hero .card {
+  position: relative;
+}
+
+.hero .grid {
+  gap: 0;
+}
+
+.hero .card.flex {
+  justify-content: flex-start;
+}
+
+.hero img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin-right: 3rem;
+  width: auto;
+  height: 220px;
+}
+
+.hero .card a::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+}
+
+.hero .card a:hover::after {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 10px;
+}
+
+/* mobile */
+@media(max-width: 500px) {
+  .hero .hero-main {
+    height: 130px;
+  }
+
+  .hero .grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .hero h1 {
+    font-size: 20px;
+  }
+
+  .hero img {
+    height: 150px;
+    margin-right: 2rem;
+  }
+}
