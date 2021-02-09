@@ -65,18 +65,19 @@ pre, code {
 .hero .hero-main {
   height: 220px;
   position: relative;
+  border: 2px solid #8a2be2;
 }
 
 .hero .card {
   position: relative;
 }
 
-.hero .grid {
-  gap: 0;
-}
-
 .hero .card.flex {
   justify-content: flex-start;
+}
+
+.hero .grid {
+  gap: 0;
 }
 
 .hero img {
