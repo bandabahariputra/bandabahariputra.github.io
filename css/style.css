@@ -28,6 +28,7 @@ ul {
 a {
   text-decoration: none;
   color: var(--light-color);
+  transition: all 0.2s ease-in;
 }
 
 a:hover {
@@ -56,10 +57,62 @@ pre, code {
   border-radius: 4px;
 }
 
+/* navbar */
+.navbar {
+  border-bottom: 1px solid rgba(39, 39, 46, 1);
+}
+
+.navbar a {
+  text-decoration: none;
+}
+
+.navbar ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: center;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.navbar ul li {
+  margin-right: 25px;
+  text-transform: lowercase;
+}
+
+.navbar ul li:first-child {
+  margin-right: auto;
+}
+
+.navbar ul li:first-child a {
+  font-weight: 700;
+}
+
+.navbar ul li a {
+  display: block;
+  padding: 16px 0px calc(14px);
+  border-bottom: 2px solid transparent;
+}
+
+.navbar ul li a:hover,
+.navbar ul li.active a {
+  border-bottom: 2px solid var(--light-color);
+}
+
+.navbar ul li.active:first-child a {
+  border-bottom: 2px solid transparent;
+}
+
+.navbar ul li:first-child a:hover {
+  border-bottom: 2px solid var(--light-color);
+}
+
 /* hero */
 .hero .container > div:first-child {
   margin-left: 0;
   margin-right: 0;
+  margin-top: 2rem;
 }
 
 .hero .container > div:last-child {
@@ -117,6 +170,7 @@ pre, code {
 .social-media .flex {
   justify-content: flex-start;
   margin-top: 3rem;
+  margin-bottom: 2rem;
 }
 
 .social-media .flex a {
@@ -171,5 +225,22 @@ pre, code {
   .social-media .flex a:last-child {
     display: block;
     margin: auto;
+  }
+
+  .navbar ul {
+    justify-content: space-around;
+  }
+
+  .navbar ul li {
+    margin-right: 0;
+  }
+
+  .navbar ul li a {
+    padding: 8px 0px calc(6px);
+  }
+
+  .navbar ul li:first-child {
+    flex-basis: 100%;
+    text-align: center;
   }
 }
