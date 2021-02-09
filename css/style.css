@@ -43,11 +43,19 @@ h1, h2 {
 
 p {
   font-weight: 300;
-  margin: 10px 0;
+  line-height: 24px;
+  margin: 10px 0 16px;
 }
 
 img {
   width: 100%;
+}
+
+hr {
+  border: none;
+  border-bottom: 1px solid rgba(39, 39, 46, 1);
+  margin-block-start: 2rem;
+  margin-block-end: 2rem;
 }
 
 pre, code {
@@ -195,6 +203,16 @@ pre, code {
 
 .social-media .flex a:last-child:hover {
   transform: none;
+}
+
+/* about */
+.about {
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+
+.about .grid {
+  grid-template-columns: repeat(3, 1fr);
 }
 
 /* mobile */
