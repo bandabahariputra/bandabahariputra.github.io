@@ -77,12 +77,13 @@ pre, code {
 }
 
 .navbar ul li {
-  margin-right: 25px;
+  margin-left: 25px;
   text-transform: lowercase;
 }
 
 .navbar ul li:first-child {
   margin-right: auto;
+  margin-left: 0;
 }
 
 .navbar ul li:first-child a {
@@ -233,7 +234,7 @@ pre, code {
   }
 
   .navbar ul li {
-    margin-right: 0;
+    margin-left: 0;
   }
 
   .navbar ul li a {
