@@ -30,6 +30,10 @@ a {
   color: var(--light-color);
 }
 
+a:hover {
+  text-decoration: underline;
+}
+
 h1, h2 {
   font-weight: 300;
   line-height: 1.2;
@@ -85,6 +89,10 @@ pre, code {
   gap: 0;
 }
 
+.hero .grid > *:first-child {
+  grid-column: 1 / span 2;
+}
+
 .hero img {
   position: absolute;
   bottom: 0;
@@ -105,6 +113,34 @@ pre, code {
   border-radius: 10px;
 }
 
+/* social media */
+.social-media .flex {
+  justify-content: flex-start;
+  margin-top: 3rem;
+}
+
+.social-media .flex a {
+  font-size: 36px;
+  margin-right: 2rem;
+  transition: transform 0.2s ease-in;
+}
+
+.social-media .flex a:hover {
+  transform: scale(1.1);
+}
+
+.social-media .flex a:last-child {
+  font-size: 32px;
+  padding-bottom: 10px;
+  margin-left: auto;
+  margin-right: 0;
+  transition: none;
+}
+
+.social-media .flex a:last-child:hover {
+  transform: none;
+}
+
 /* mobile */
 @media(max-width: 500px) {
   .hero .hero-main {
@@ -115,6 +151,10 @@ pre, code {
     grid-template-columns: repeat(1, 1fr);
   }
 
+  .hero .grid > *:first-child {
+    grid-column: auto;
+  }
+
   .hero h1 {
     font-size: 20px;
   }
@@ -122,5 +162,14 @@ pre, code {
   .hero img {
     height: 150px;
     margin-right: 2rem;
+  }
+
+  .social-media .flex a {
+    display: none;
+  }
+
+  .social-media .flex a:last-child {
+    display: block;
+    margin: auto;
   }
 }
