@@ -86,6 +86,7 @@ pre, code {
 }
 
 .navbar ul li:first-child a {
+  font-size: 20px;
   font-weight: 700;
 }
 
