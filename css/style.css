@@ -53,6 +53,16 @@ pre, code {
 }
 
 /* hero */
+.hero .container > div:first-child {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.hero .container > div:last-child {
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
 .hero .hero-main {
   height: 200px;
   position: relative;
