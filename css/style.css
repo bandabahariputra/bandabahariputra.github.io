@@ -305,6 +305,25 @@ pre, code {
   margin-bottom: 1rem;
 }
 
+/* contact */
+.contact {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.contact ul {
+  list-style-type: square;
+  margin-left: 20px;
+}
+
+.contact ul li {
+  margin: 16px 0;
+}
+
+.contact h1.md {
+  margin-top: 2rem;
+}
+
 /* mobile */
 @media(max-width: 500px) {
   .hero .hero-main {
