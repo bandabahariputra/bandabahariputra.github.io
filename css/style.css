@@ -388,7 +388,7 @@ pre, code {
 .projects-detail ul li::before {
   content: "–";
   display: inline-block;
-  color: rgb(161, 161, 165);
+  color: rgba(161, 161, 161, 1);
   position: absolute;
   margin-left: -20px;
 }
