@@ -236,10 +236,6 @@ pre, code {
     grid-column: auto;
   }
 
-  .hero h1 {
-    font-size: 1.4rem;
-  }
-
   .hero img {
     height: 150px;
     margin-right: 2rem;

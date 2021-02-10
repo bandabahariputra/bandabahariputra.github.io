@@ -231,3 +231,17 @@
 .grid-3 {
   grid-template-columns: repeat(3, 1fr);
 }
+
+@media(max-width: 500px) {
+  .md {
+    font-size: 1.4rem;
+  }
+  
+  .lg {
+    font-size: 2.4rem;
+  }
+  
+  .xl {
+    font-size: 3.4rem;
+  }
+}
