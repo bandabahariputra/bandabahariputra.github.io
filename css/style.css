@@ -222,6 +222,40 @@ pre, code {
   margin-bottom: 2rem;
 }
 
+/* certificates */
+.certificates {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.certificates h2 {
+  line-height: 24px;
+}
+
+.certificates p {
+  margin: 10px 0;
+}
+
+.certificates .card {
+  margin: 20px 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.certificates .card .card-content {
+  padding: 10px 20px;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.certificates .card .card-img img {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.certificates .card .card-img {
+  padding: 10px 20px 20px;
+}
+
 /* mobile */
 @media(max-width: 500px) {
   .hero .hero-main {
