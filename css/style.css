@@ -35,7 +35,7 @@ a:hover {
   text-decoration: underline;
 }
 
-h1, h2 {
+h1, h2, h3 {
   font-weight: 300;
   line-height: 46px;
   margin: 10px 0;
@@ -228,7 +228,7 @@ pre, code {
   margin-bottom: 2rem;
 }
 
-.certificates h2 {
+.certificates h3 {
   line-height: 24px;
 }
 
