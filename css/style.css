@@ -37,7 +37,7 @@ a:hover {
 
 h1, h2 {
   font-weight: 300;
-  line-height: 1.2;
+  line-height: 32px;
   margin: 10px 0;
 }
 
@@ -156,6 +156,10 @@ pre, code {
   grid-column: 1 / span 2;
 }
 
+.hero .grid p {
+  line-height: 14px;
+}
+
 .hero img {
   position: absolute;
   bottom: 0;
@@ -209,10 +213,6 @@ pre, code {
 .about {
   margin-top: 3rem;
   margin-bottom: 2rem;
-}
-
-.about .grid {
-  grid-template-columns: repeat(3, 1fr);
 }
 
 /* mobile */
