@@ -137,7 +137,7 @@ pre, code {
 .hero .hero-main {
   height: 220px;
   position: relative;
-  border: 2px solid #8a2be2;
+  border: 2px solid #f2a154;
 }
 
 .hero .hero-main h1 {
@@ -279,7 +279,7 @@ pre, code {
 
 .projects .card .card-img {
   position: relative;
-  background: linear-gradient(to right, #8a2be2, #26c6da);
+  background: linear-gradient(to right, #E47711, #EF8C2E);
 }
 
 .projects .card .card-img::after {
@@ -295,7 +295,7 @@ pre, code {
 .projects .card .card-content {
   position: relative;
   padding: 10px 20px;
-  background: linear-gradient(to right, #8a2be2, #26c6da);
+  background: linear-gradient(to right, #E47711, #EF8C2E);
   margin-top: -10px;
 }
 
