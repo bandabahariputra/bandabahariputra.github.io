@@ -233,7 +233,7 @@
 }
 
 /* mobile */
-@media(max-width: 500px) {
+@media(max-width: 600px) {
   .md {
     font-size: 1.4rem;
   }
