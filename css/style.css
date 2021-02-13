@@ -394,7 +394,7 @@ pre, code {
 }
 
 /* mobile */
-@media(max-width: 500px) {
+@media(max-width: 600px) {
   .hero .hero-main {
     height: 150px;
   }
